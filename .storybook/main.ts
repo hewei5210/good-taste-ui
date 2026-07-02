@@ -1,4 +1,4 @@
-import type { StorybookConfig } from "storybook/react-vite";
+import type { StorybookConfig } from "@storybook/react-vite";
 
 const config: StorybookConfig = {
   stories: ["../src/**/*.stories.@(ts|tsx|mdx)"],
@@ -6,7 +6,7 @@ const config: StorybookConfig = {
     "@storybook/addon-themes",
   ],
   framework: {
-    name: "storybook/react-vite",
+    name: "@storybook/react-vite",
     options: {},
   },
   viteConfig: () => {
